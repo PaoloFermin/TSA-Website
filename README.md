@@ -4,7 +4,7 @@ Repo for the West Potomac TSA website, www.arwestpo.org. Contains information ab
 - Annual TSA Webmaster Design Brief
 
 Design Briefs:
-2017: Augmented Reality
+- 2017: Augmented Reality
 
 Contributors: 
 Paolo Fermin
