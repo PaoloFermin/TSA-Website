@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Teacher</title>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="thing.css" />
+		<script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' href='universal.css' />
+		<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Proza+Libre" rel="stylesheet">
+		<link rel='stylesheet' type='text/css' href='teacher.css' />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js" type='text/javascript'></script>
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+		<script>
+			function enterpressalert(e, input){
+				var code = (e.keyCode ? e.keyCode : e.which);
+				if(code == '13'){
+					alert('You pressed a "enter" key in textbox');
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+			<header class="mdl-layout__header">
+				<div class="mdl-layout__header-row">
+					<span class="mdl-layout-spacer" id='title'><h3 style='color:white;'><center><a href='homelefttemp.html' id='homelink'>West Potomac CTE</a></center></h3></span>
+						<!-- Search Thing vv -->
+						<div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right">
+							<label class="mdl-button mdl-js-button mdl-button--icon" for="fixed-header-drawer-exp">
+								<i class="material-icons">search</i>
+							</label>
+							<div class="mdl-textfield__expandable-holder">
+								<input class="mdl-textfield__input search" onKeyPress='enterpressalert(event, this)' type="text" id="fixed-header-drawer-exp">
+							</div>
+					</div>
+				</div>
+			</header>
+			<div class="mdl-layout__drawer" id='bar'>
+				<span class="mdl-layout-title">West Potomac CTE</span>
+				<nav class="mdl-navigation">
+					<a class="mdl-navigation__link" href="homelefttemp.html">CTE Home</a>
+					<a class="mdl-navigation__link" href="teacher.html"><strong>The Teacher</strong></a>
+					<a class="mdl-navigation__link" href="courses.html">Courses</a>
+					<a class="mdl-navigation__link" href="workplace.html">The Workplace</a>
+				</nav>
+				<span style='padding-top:30px; margin-left:20px;'>
+					<i id='share' class='material-icons'>share</i>
+					<div class='mdl-tooltip' for='share'><p>Share</p></div>
+				</span>
+			</div>
+			<main class="mdl-layout__content">
+				<div class="page-content">
+					<div id="breader">
+						<div id="breadcrumbbox">
+							<ul class="breadcrumb">
+								<li><a href="homelefttemp.html">CTE Home</a></li>
+								<li>The Teacher</li>
+							</ul>
+						</div>
+					</div>
+					<div id='titleHeader' class='noselect'>
+						<h2 id='tTitle'>Mr. Joseph Franco</h2>
+					</div>
+					<div id='mainContent'>
+            <div id='wrapper'>
+              <div id='franco'>
+                <div class='francocontent' id='francopic'>
+                  <img src='images/JOE FRANCO.jpg' alt='A picture of Mr.Franco' />
+                </div>
+              </div>
+              <div id='bottompart'>
+								<div id='francocontact'>
+									<p><strong>Contact:</strong><br>
+									Email: jfranco@fcps.edu<br>
+									Phone: (703) 718-2574</p>
+									<p><strong>M.S. Research</strong>: Biomimicry of Cilia Using Carbon Nanotubes</p>
+								</div>
+                <div id='education'>
+									<p><strong>Education</strong></p>
+									<p>
+										<ul style="font-family: 'Ubuntu', sans-serif; font-size: 1vw;">
+											<li>M.S. Aerospace Engineering, George Washington University, Washington, DC</li>
+											<li>B.S. Engineering Science, City University of New York, Staten Island, NY</li>
+											<li>A.A.S Mechanical Engineering Technology, City University of New York, Staten Island, NY</li>
+											<li>Certificate Manufacturing Technology, City University of New York, Staten Island, NY</li>
+											<li>Certificate Industrial Management, City University of New York, Staten Island, NY</li>
+										</ul>
+									</p>
+								</div>
+                <div id='proxp'>
+									<strong>Professional Work Experience</strong><br>
+									<ul>
+										<li>Rockwell Collins – Flight Simulation and Flight Systems</li>
+										<li>Applied Resources Inc. – Flight Simulation and Threat Analysis</li>
+										<li>Lockheed Martin - Flight Simulation and Flight Systems</li>
+										<li>Orange Technology – CAD plug-in development and Test Manager</li>
+										<li>Fortner Research LLC – Scientific Software Development and QA Testing</li>
+										<li>Louis Berger International – Civil Engineer, Mechanical and Structural Design</li>
+									</ul>
+								</div>
+              </div>
+            </div>
+					</div>
+				</div>
+			</main>
+		</div>
+	</body>
+</html>

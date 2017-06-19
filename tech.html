@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Technologies</title>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="thing.css" />
+		<script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel='stylesheet' type='text/css' href='universal.css' />
+		<link rel='stylesheet' type='text/css' href='tech.css' />
+		<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Proza+Libre" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js" type='text/javascript'></script>
+		<script>
+			function enterpressalert(e, input){
+				var code = (e.keyCode ? e.keyCode : e.which);
+				if(code == '13'){
+					alert('You pressed a "enter" key in textbox');
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+			<header class="mdl-layout__header">
+				<div class="mdl-layout__header-row">
+					<span class="mdl-layout-spacer" id='title'><h3 style='color:white;'><center><a href='home.html' id='homelink'>Augmented Reality</a></center></h3></span>
+						<!-- Search Thing vv -->
+						<div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right">
+							<label class="mdl-button mdl-js-button mdl-button--icon" for="fixed-header-drawer-exp">
+								<i class="material-icons">search</i>
+							</label>
+							<div class="mdl-textfield__expandable-holder">
+								<input class="mdl-textfield__input search" onKeyPress='enterpressalert(event, this)' type="text" id="fixed-header-drawer-exp">
+							</div>
+					</div>
+				</div>
+			</header>
+			<div class="mdl-layout__drawer" id='bar'>
+				<span class="mdl-layout-title">Augmented Reality</span>
+					<nav class="mdl-navigation">
+						<a class="mdl-navigation__link" href="home.html">Home</a>
+						<a class="mdl-navigation__link" href="history.html">History</a>
+						<a class="mdl-navigation__link" href="tech.html"><strong>Technologies</strong></a>
+						<a class="mdl-navigation__link" href="uses.html">Uses</a>
+						<a class="mdl-navigation__link" href="benefits.html">Benefits</a>
+						<a class="mdl-navigation__link" href="concerns.html">Concerns</a>
+					</nav>
+				<span style='padding-top:30px; margin-left:20px;'>
+					<i id='share' class='material-icons'>share</i>
+					<div class='mdl-tooltip' for='share'><p>Share</p></div>
+				</span>
+			</div>
+			<main class="mdl-layout__content">
+				<div class="page-content">
+					<div id="breader">
+						<div id="breadcrumbbox">
+							<ul class="breadcrumb">
+								<li><a href="home.html">Augmented Reality</a></li>
+								<li>Technologies</li>
+							</ul>
+						</div>
+					</div>
+					<div id='titleHeader' class='noselect'>
+						<h2 id='tTitle'>Technologies</h2>
+					</div>
+					<div id="mainContent">
+						<div id="overview">
+							<p>Augmented reality is the superimposing of computer graphics over the real world. How do the graphics get displayed? At the moment, there are two ways to accomplish this: optical or video displays. <strong>Optical AR</strong> is AR that overlays graphics while still allowing the user to directly see the real world. <strong>Video AR</strong> completely replaces the user’s vision. Instead, users look through a monitor that displays a live video feed of the world with the graphics overlaid onto it (<a href="tech.html#azuma 1997">Azuma 1997</a>).</p>
+						</div>
+						<div class='tech' id='optical'>
+							<h4 class='Ttitle'>Optical Augmented Reality</h4>
+							<p>The optical version of AR is that which allows the user to directly view the real world. To accomplish this, users wear a see-through Head Mounted Display (HMD) with optical combiners placed in the user’s field of view. These surfaces that reflect projected images back into the user’s eyes, while remaining transparent so that the user can see past them (<a href="tech.html#azuma 1997">Azuma 1997</a>).</p>
+							<a href="images/Optical HMD Diagram.png" data-lightbox="optical" data-title="A “Conceptual Diagram” of optical see-through HMD (Azuma 1997).">
+								<img class='centerImage' src='images/Optical HMD Diagram.png'/>
+							</a>
+							<p class=caption>A “Conceptual Diagram” of optical see-through HMD (<a href="tech.html#azuma 1997">Azuma 1997</a>).</p>
+							<div class="tech noshadow" id="google glass">
+								<h6 class='Tsubtitle'>Google Glass</h6>
+									<p>This device released to large fanfare in 2013 was a product of Google’s top secret development team, Google X. It was an augmented reality HMD with a small frame similar to traditional glasses, containing a small display screen in the periphery of the right eye. Released only as a prototype, it could do many tasks that a smartphone does, such as taking pictures and videos, receiving calls, and sending texts (<a href="tech.html#newman 2012">Newman 2012</a>). Users interacted with the apps in Glass using voice commands, or a touchpad on the right side on the temples (<a href="tech.html#glass help">Glass Help</a>).</p>
+									<a href="images/Google Glass.png" data-lightbox="glass" data-title="The Google Glass, with its small transparent display screen in the user's right periphery (Doyle 2016). ">
+											<img class='centerImage' src='images/Google Glass.png'/>
+									</a>
+									<p class=caption>The Google Glass, with its small transparent display screen in the user's right periphery (<a href="tech.html#doyle 2016">Doyle 2016</a>).</p>
+									<p>Unfortunately, this hardware was not marketed properly, as it was merely a prototype but advertised as a finished product. It was released to the public in a beta stage so as to gain feedback, but little progress made after two years led to the hype dying off and confusion as to the purpose of the device. It was discontinued in 2015. However, it did jumpstart the conversation on wearable AR technology. Future versions of Glass are in the works, under new management (<a href="tech.html#bilton 2015">Bilton 2015</a>).</p>
+								</div>
+								<div class="tech" id="google glass">
+									<h6 class='Tsubtitle'>Microsoft Hololens</h6>
+										<p>Microsoft HoloLens is a see-through Head Mounted Display, released in March of 2016. It is able to project graphics dubbed “Holograms” in the user’s field of view, which users can then interact with using gestures, gazing, and voice commands. It has everything it needs to do this inside it: a GPU, a CPU running Windows 10, and an HPU, or Holographic Processing Unit. This secondary processor consolidates all the data from the headset’s sensors so as to take the strain off of the CPU and GPU (<a href="tech.html#microsoft hololens">Microsoft Hololens</a>).</p>
+										<a href="images/Microsoft Hololens.png" data-lightbox="glass" data-title="The Microsoft Hololens (Microsoft Hololens).">
+												<img class='centerImage' src='images/Microsoft Hololens.png'/>
+										</a>
+										<p class=caption>The Microsoft Hololens (<a href="tech.html#microsoft hololens">Microsoft Hololens</a>).</p>
+										<p>In addition to visual stimuli, the Hololens contains speakers to provide a more immersive experience. They play localized sound, sound that seems like it’s coming from the location of the virtual holograms that the users see (<a href="tech.html#microsoft hololens">Microsoft Hololens</a>).</p>
+									</div>
+								<div class="tech" id = "video">
+									<h6 class='Tsubtitle'>Video</h6>
+									<p>The other main kind of augmented reality system is video augmented reality. This involves overlaying computer graphics over a video feed, instead of over the actual world seen by the user. Some video AR systems involve a HMD, and some involve only a monitor. Video AR HMDs are
+									“closed-view”, meaning the user cannot see through it. Instead, the HMD is equipped with front-facing cameras, that relay the live video feed from the user’s perspective, augmented by computer graphics, onto monitors in front of the user's’ eyes. Monitor based AR is that in which the user sees the graphics on a regular screen such as a computer or cellphone (<a href="azuma 1997">Azuma 1997</a>; <a href="milgram 1994">Milgram, Takemura, Utsumi, & Kishino, 1994</a>).</p>
+									<a href = "images/PokemonGoScreenshot.png" data-lightbox="pokemongo" data-title = "Pokemon Go players catch virtual Pokemon that appear to be standing (or flying) right in front of them (Park, 2016)">
+										<img class = "portraitImage" src = "images/PokemonGoScreenshot.png">
+									</a>
+									<p class=caption>Apps such as Pokemon Go have taken full advantage of smartphone’s camera capabilities and processing power to create AR content (<a href="tech.html#park 2016">Park, 2016</a>)</p>
+									<p>Examples of video-based AR have existed for many years. In a study by <a href="tech.html#rosenthal 2001">Rosenthal, et al. in 2001</a>, researchers used video AR HMDs to perform needle biopsies. However, video based AR has come to the forefront of public attention in recent years because of the massive increase in use of smartphones. Apps such as Pokemon Go have taken full advantage of smartphone’s camera capabilities and processing power to create AR content (<a href="tech.html#park 2016">Park, 2016</a>).</p>
+								</div>
+							</div>
+							<div class='tech' id='bib'>
+								<h4 class='Ttitle'>Works Cited</h4>
+								<p id="azuma 1997" class=hanging>Azuma, Robert T. (1997). A survey of augmented reality. <i>Presence, 6(4), 355-385</i>. Retrieved from <a href='http://www.mitpressjournals.org/doi/pdfplus/10.1162/pres.1997.6.4.355' target="_blank">http://www.mitpressjournals.org/doi/pdfplus/10.1162/pres.1997.6.4.355</a></p>
+								<p id="bilton 2015" class=hanging>Bilton, N. (2015, February 04). Why Google Glass broke. <i>The New York Times</i>. Retrieved from <a href="https://www.nytimes.com/2015/02/05/style/why-google-glass-broke.html"> https://www.nytimes.com/2015/02/05/style/why-google-glass-broke.html</a></p>
+								<p id = "doyle 2016" class=hanging>Doyle, B. (2016, February 28). 5 reasons why Google Glass was a miserable failure. <i>Business 2 Community</i>. Retrieved from <a href="http://www.business2community.com/tech-gadgets/5-reasons-google-glass-miserable-failure-01462398#IyHsAbJ13HhrcabE.97">http://www.business2community.com/tech-gadgets/5-reasons-google-glass-miserable-failure-01462398#IyHsAbJ13HhrcabE.97</a></p>
+								<p id = "glass help" class=hanging>Glass help [Support center]. (n.d.). Retrieved from <a href="https://www.google.com/glass/help/">https://www.google.com/glass/help/</a></p>
+								<p id="microsoft hololens" class=hanging>Microsoft Hololens [Product page]. (n.d). Retrieved from <a href="https://www.microsoft.com/en-us/hololens">https://www.microsoft.com/en-us/hololens</a></p>
+								<p id = "milgram 1994" class=hanging>Milgram, P., Takemura, H., Utsumi, A, & Kishino, F. (1994). Augmented reality: A class of displays on the reality-virtuality continuum. <i>SPIE, 2531, 282-292</i>. Retrieved from <a href='http://etclab.mie.utoronto.ca/publication/1994/Milgram_Takemura_SPIE1994.pdf' target="_blank"> http://etclab.mie.utoronto.ca/publication/1994/Milgram_Takemura_SPIE1994.pdf</a></p>
+								<p id = "park 2016" class = hanging>Park, H. (2016, July 12). Pokemon GO just accelerated adoption for enterprise augmented reality. <i>Blue Hill Research</i>. Retrieved from <a href = "http://bluehillresearch.com/pokemon-go-just-accelerated-adoption-for-enterprise-augmented-reality/" target="_blank">http://bluehillresearch.com/pokemon-go-just-accelerated-adoption-for-enterprise-augmented-reality/</a></p>
+								<p id = "rosenthal 2001" class=hanging>Rosenthal, M., State, A., Lee, J., Hirota, G., Ackerman, J., Keller, K., . . . Fuchs, H (2001). Augmented reality guidance for needle biopsies: A randomized, controlled trial in phantoms. <i>Springer Lecture Notes in Computer Science (LNCS), 240-248</i>. Retrieved from <a href='http://www.cs.unc.edu/Research/MIDAG/pubs/papers/MICCAI01-rosenthal-AugReality.pdf' target="_blank">http://www.cs.unc.edu/Research/MIDAG/pubs/papers/MICCAI01-rosenthal-AugReality.pdf</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+		</div>
+	</body>
+</html>

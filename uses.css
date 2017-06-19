@@ -1,0 +1,109 @@
+#uMainContent{
+  width:100%;
+  position:absolute;
+  top:150px;
+}
+
+#uTitle{
+  text-align: center;
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 3em;
+}
+
+#uTitleHeader{
+  width: 100%;
+  position: absolute;
+  background-color: orange/*#A0A0A0*/;
+}
+
+#uTitleHeader:after{
+  content: "";
+  width: 100%;
+  height: 1px;
+  display: block;
+  position: absolute;
+  z-index: -1;
+  -webkit-box-shadow: 0px 0px 8px 2px #000000;
+   -moz-box-shadow: 0px 0px 8px 2px #000000;
+      box-shadow: 0px 0px 8px 2px #000000;
+}
+#uOverandDid{
+  width = 100%;
+  padding-left:6%;
+  padding-right:6%;
+  padding-top:1%;
+  padding-bottom:1%;
+  top: 0;
+  margin_bottom: 1%;
+}
+
+#uOverview{
+  position: relative;
+  background-color: white;
+  padding-left:1%;
+  padding-right:1%;
+  padding-top:1%;
+  padding-bottom:1%;
+  top:0;
+  left:4%;
+  width:50%;
+  margin-bottom:1%;
+  display: inline-block;
+}
+#uDid{
+  float:right;
+  right:3%;
+  position: relative;
+  width:35%;
+  top:0;
+  background-color: white;
+  padding-left:1%;
+  padding-right:1%;
+  padding-top:1%;
+  margin-bottom: 3%;
+  display: inline-block;
+}
+#uDidimg{
+  position:relative;
+  width:40%;
+  left:30%;
+}
+#uDidimg:hover{
+  -webkit-box-shadow: 0px 2px 8px 2px #000000;
+   -moz-box-shadow: 0px 2px 8px 2px #000000;
+      box-shadow: 0px 2px 8px 2px #000000;
+}
+#usecont{
+  display: inline-flex;
+  width:100%;
+  flex-wrap: wrap;
+}
+#udidcaption{
+  position: relative;
+  left:10%;
+  font-family: inherit;
+  font-style:italic;
+  font-size: 1em;
+}
+.use{
+  width:80%;
+  left:10%;
+  position: relative;
+  background-color: white;
+  margin-bottom: 1%;
+  padding-left:1%;
+  padding-right:1%;
+  padding-top:1%;
+  padding-bottom:2%;
+}
+
+.Utitle{
+  text-align: left;
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 32px;
+}
+.Usubtitle{
+  text-align: left;
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 24px;
+}

@@ -1,0 +1,93 @@
+#cMainContent{
+ width:100%;
+ position:absolute;
+ top:150px;
+}
+
+#cTitleHeader{
+  width: 100%;
+  position: absolute;
+  background-color: orange/*#A0A0A0*/;
+}
+
+#cTitleHeader:after{
+  content: "";
+  width: 100%;
+  height: 1px;
+  display: block;
+  position: absolute;
+  z-index: -1;
+  -webkit-box-shadow: 0px 0px 8px 2px #000000;
+   -moz-box-shadow: 0px 0px 8px 2px #000000;
+      box-shadow: 0px 0px 8px 2px #000000;
+}
+
+#cTitle{
+  text-align: center;
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 3em;
+}
+
+#wrapper{
+  width:70%;
+  margin:0 auto;
+}
+
+#overview{
+  background-color: white;
+  width:100%;
+}
+
+#coursecont{
+  margin:0 auto;
+}
+
+.course{
+  background-color: white;
+  width:30%;
+  padding-bottom: 30%;
+  margin:calc(9%/6);
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+}
+
+.course:hover{
+  -webkit-box-shadow: 0px 1px 8px 2px #000000;
+   -moz-box-shadow: 0px 1px 8px 2px #000000;
+      box-shadow: 0px 1px 8px 2px #000000;
+}
+
+.coursebox{
+  display: inline-block;
+
+}
+
+.title{
+  position: absolute;
+  font-family: "Proza Libre", sans-serif;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  text-align:center;
+  font-size: 1.5vw;
+}
+
+.img{
+  width:70%;
+  height:50%;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  top:35%;
+}
+
+#adv{
+  position: absolute;
+  font-family: "Proza Libre", sans-serif;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  font-size: 1vw;
+}

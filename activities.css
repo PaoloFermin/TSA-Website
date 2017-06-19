@@ -1,0 +1,78 @@
+#aTitle{
+  text-align: center;
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 3em;
+}
+
+#aTitleHeader{
+  width: 100%;
+  position: absolute;
+  background-color: orange/*#A0A0A0*/;
+}
+
+#aTitleHeader:after{
+  content: "";
+  width: 100%;
+  height: 1px;
+  display: block;
+  position: absolute;
+  z-index: -1;
+  -webkit-box-shadow: 0px 0px 8px 2px #000000;
+   -moz-box-shadow: 0px 0px 8px 2px #000000;
+      box-shadow: 0px 0px 8px 2px #000000;
+}
+
+#aMainContent{
+  width:100%;
+  position:absolute;
+  top:150px;
+}
+
+#wrapper{
+  width: 80%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin:0 auto;
+}
+
+#top{
+  padding-top:2%;
+  padding-bottom: 2%;
+  width:80%;
+  margin:0 auto;
+  text-align: center;
+  display: inline-flex;
+  flex-wrap:nowrap;
+}
+
+#bot{padding-top: 1%; width:80%; margin: 0 auto; display: inline-flex; flex-wrap: nowrap;}
+
+.activity{
+  width:80%;
+  left:10%;
+  position: relative;
+  background-color: white;
+  margin-bottom: 1%;
+  padding-left:1%;
+  padding-right:1%;
+  padding-top:1%;
+  padding-bottom:2%;
+  -webkit-box-shadow: 0px 1px 8px 2px #000000;
+   -moz-box-shadow: 0px 1px 8px 2px #000000;
+      box-shadow: 0px 1px 8px 2px #000000;
+}
+
+.horImage{
+  position:relative;
+  width:33%;
+  display: inline-flex;
+  padding-top:2%;
+}
+
+.atitle{
+  text-align: left;
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 32px;
+}

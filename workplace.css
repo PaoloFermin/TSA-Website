@@ -1,0 +1,149 @@
+#wMainContent{
+  width:100%;
+  position:absolute;
+  top:150px;
+}
+
+#wTitle{
+  text-align: center;
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 3em;
+}
+
+#wTitleHeader{
+  width: 100%;
+  position: absolute;
+  background-color: orange/*#A0A0A0*/;
+}
+
+#wTitleHeader:after{
+  content: "";
+  width: 100%;
+  height: 1px;
+  display: block;
+  position: absolute;
+  z-index: -1;
+  -webkit-box-shadow: 0px 0px 8px 2px #000000;
+   -moz-box-shadow: 0px 0px 8px 2px #000000;
+      box-shadow: 0px 0px 8px 2px #000000;
+}
+
+#thingcont{
+  width:60%;
+  margin: 0 auto;
+}
+
+#mapbox{
+  margin:0 auto;
+  width:60%;
+}
+
+#map{
+  width:55%;
+  display:inline-block;
+}
+
+#insetbox{
+  width:40%;
+  float:right;
+}
+#pano{
+  width:100%;
+  margin-bottom: 1%;
+}
+#pano:hover{
+  -webkit-box-shadow: 0px 2px 8px 2px #000000;
+   -moz-box-shadow: 0px 2px 8px 2px #000000;
+      box-shadow: 0px 2px 8px 2px #000000;
+}
+.btn{
+  background-color: rgba(255,165,0,0.3);
+  z-index: 10;
+  position:absolute;
+  -o-transition:.5s; -moz-transition:.5s; -ms-transition:.5s; -webkit-transition:.5s;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: rgba(255,165,0,0.6);
+}
+.btn:hover .btntext{
+  color: rgba(0, 0, 0, 1);
+  -o-transition:.5s; -moz-transition:.5s; -ms-transition:.5s; -webkit-transition:.5s;
+}
+.btntext{
+  color: transparent;
+  font-family: 'Proza Libre', sans-serif;
+}
+
+#insetimage{
+  width:100%;
+  z-index: -1;
+}
+
+#lecture{
+  width:10%;
+  height:31%;
+  top:20%;
+  left:60.5%;
+}
+
+#proto{
+  width:5%;
+  height:32%;
+  top:30%;
+  left:70.5%;
+}
+#rd{
+  width:10%;
+  height:60%;
+  top:63%;
+  left:65.5%;
+}
+#wrapper{
+  width:80%;
+  margin: 0 auto;
+  background-color: white;
+  padding:1%;
+}
+.horimage{
+  display: inline-block;
+  width:10%;
+  position:relative;
+}
+.horimage:hover{
+  -webkit-box-shadow: 0px 2px 8px 2px #000000;
+   -moz-box-shadow: 0px 2px 8px 2px #000000;
+      box-shadow: 0px 2px 8px 2px #000000;
+}
+.imagebox{
+  text-align: center;
+  padding-top:1%;
+  padding-bottom:1%;
+}
+/*#btncont{
+  width:80%;
+  margin-bottom:0;
+  display: inline-flex;
+  justify-content: center;
+  position: absolute;
+  left:10%;
+}
+.btn {
+  width:33%;
+  padding-bottom: 20%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  opacity: 0.0;
+  color:white;
+  -o-transition:.5s;
+  -moz-transition:.5s;
+  -ms-transition:.5s;
+  -webkit-transition:.5s;}
+.btn:hover{
+  opacity: 1.0;
+}*/
